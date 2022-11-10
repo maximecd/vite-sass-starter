@@ -8,6 +8,24 @@ html {
   font-size: 100%;
 }
 
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;
